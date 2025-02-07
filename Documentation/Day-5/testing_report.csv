@@ -1,0 +1,11 @@
+Test Case ID,Feature,Steps,Expected Result,Actual Result,Status
+TC001,Product Listing,Visit homepage & check products,Products should be visible,✅ Products loaded,Pass
+TC002,Search,Search for 'Laptop',Only laptops should appear,❌ Wrong results,Fail
+TC003,Cart,Add an item to cart,Cart count should update,✅ Item added,Pass
+TC004,Checkout,Complete checkout process,Order should be placed,✅ Order confirmed,Pass
+TC005,Authentication,Login with valid credentials,User should be logged in,✅ Login successful,Pass
+TC006,Authentication,Login with invalid credentials,Error message should appear,✅ Error displayed,Pass
+TC007,API Response,Fetch products API,Returns status 200 with products,✅ API working fine,Pass
+TC008,Performance,Measure homepage load time,Should load within 2s,❌ Loads in 3.5s,Fail
+TC009,Cross-Browser,"Test on Firefox, Chrome, Edge",Same UI and functionality,✅ Consistent behavior,Pass
+TC010,Security,Check if API keys are exposed,Keys should not be in frontend,✅ Secure implementation,Pass
